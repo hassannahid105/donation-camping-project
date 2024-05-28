@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Education",
+    "title": "Support School Supplies for Kids",
+    "cardColor": "#F0F8FF",
+    "categoryColor": "#4682B4",
+    "titleColor": "#00008B"
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Education",
+    "title": "Build Libraries in Rural Areas",
+    "cardColor": "#F0F8FF",
+    "categoryColor": "#4682B4",
+    "titleColor": "#00008B"
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Education",
+    "title": "Sponsor Scholarships",
+    "cardColor": "#F0F8FF",
+    "categoryColor": "#4682B4",
+    "titleColor": "#00008B"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Health",
+    "title": "Fund Medical Treatments",
+    "cardColor": "#FFF0F5",
+    "categoryColor": "#FF69B4",
+    "titleColor": "#C71585"
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Health",
+    "title": "Provide Mental Health Support",
+    "cardColor": "#FFF0F5",
+    "categoryColor": "#FF69B4",
+    "titleColor": "#C71585"
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Health",
+    "title": "Distribute Hygiene Kits",
+    "cardColor": "#FFF0F5",
+    "categoryColor": "#FF69B4",
+    "titleColor": "#C71585"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Environment",
+    "title": "Plant Trees to Save Earth",
+    "cardColor": "#E0FFE0",
+    "categoryColor": "#32CD32",
+    "titleColor": "#006400"
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Environment",
+    "title": "Clean Up Beaches",
+    "cardColor": "#E0FFE0",
+    "categoryColor": "#32CD32",
+    "titleColor": "#006400"
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Environment",
+    "title": "Reduce Plastic Waste",
+    "cardColor": "#E0FFE0",
+    "categoryColor": "#32CD32",
+    "titleColor": "#006400"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Community Development",
+    "title": "Build Safe Neighborhoods",
+    "cardColor": "#FAFAD2",
+    "categoryColor": "#FFD700",
+    "titleColor": "#DAA520"
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Community Development",
+    "title": "Support Local Businesses",
+    "cardColor": "#FAFAD2",
+    "categoryColor": "#FFD700",
+    "titleColor": "#DAA520"
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co/m0zGR11/Food.png",
+    "category": "Community Development",
+    "title": "Create Community Gardens",
+    "cardColor": "#FAFAD2",
+    "categoryColor": "#FFD700",
+    "titleColor": "#DAA520"
+  }
+]
