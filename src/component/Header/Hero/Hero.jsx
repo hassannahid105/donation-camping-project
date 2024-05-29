@@ -4,13 +4,13 @@ const Hero = () => {
       <div
         className="w-full h-[80vh] flex flex-col items-center justify-center"
         style={{
-          backgroundImage: `url("https://i.ibb.co/hY1SHLY/Red-Dead.jpg")`,
+          backgroundImage: `url("https://i.ibb.co/0V9Yypb/banner.png")`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundBlendMode: "darken",
         }}
       >
-        <h2 className="text-4xl font-bold mb-8 text-white">
+        <h2 className="text-4xl font-bold mb-8 ">
           I Grow By Helping People In Need
         </h2>
 
@@ -45,7 +45,7 @@ const Hero = () => {
             />
             <button
               type="submit"
-              className="text-white absolute end-0 bottom-0 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-sm text-sm px-6 py-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="text-white absolute end-0 bottom-0 mb-[1px] bg-red-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Search
             </button>
