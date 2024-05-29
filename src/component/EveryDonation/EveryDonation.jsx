@@ -18,6 +18,9 @@ const EveryDonation = ({ mydo }) => {
             Here are the biggest enterprise technology acquisitions of 2021 so
             far, in reverse chronological order.
           </p>
+          <button className="px-2 py-1  bg-green-400 rounded-lg text-white font-bold">
+            View Details
+          </button>
         </div>
       </div>
     </div>

@@ -1,10 +1,11 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from "sweetalert";
 
 const DonationDetails = () => {
   const { id } = useParams();
   const detailsCard = useLoaderData();
   const findOne = detailsCard.find((one) => one.id === parseFloat(id));
-  const { title, image, cardColor } = findOne;
+  const { title, image, cardColor, titleColor } = findOne;
   const addDonate = [];
   // ! local storage func
   const handleAddtocart = () => {
@@ -12,13 +13,16 @@ const DonationDetails = () => {
     if (!getDonate) {
       addDonate.push(findOne);
       localStorage.setItem("donate", JSON.stringify(addDonate));
+      swal("Good job!", "You Successfully added loaclstorage!", "success");
     } else {
       const isExist = getDonate.find((donate) => donate.id === findOne.id);
       if (!isExist) {
         addDonate.push(...getDonate, findOne);
         localStorage.setItem("donate", JSON.stringify(addDonate));
+        swal("Good job!", "You Successfully added loaclstorage!", "success");
       } else {
-        alert("addDonate");
+        // alert("item is already added");
+        swal("Already Added", "Try another one ", "error");
       }
     }
   };
@@ -34,7 +38,8 @@ const DonationDetails = () => {
           />
           <button
             onClick={handleAddtocart}
-            className="bg-red-500 px-8 py-2 rounded-md font-bold text-white absolute bottom-5 left-5"
+            className=" px-8 py-2 rounded-md font-bold text-white absolute bottom-5 left-5"
+            style={{ backgroundColor: titleColor }}
           >
             Donate
           </button>
