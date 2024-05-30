@@ -21,7 +21,7 @@ const Statistics = () => {
           },
         ]}
         width={400}
-        height={200}
+        height={400}
       />
     </div>
   );
