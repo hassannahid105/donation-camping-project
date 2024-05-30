@@ -1,12 +1,13 @@
 /* eslint-disable react/prop-types */
 const EveryDonation = ({ mydo }) => {
   const { title, image, cardColor } = mydo;
+  console.log(mydo.length);
   // ! local storage func
 
   return (
     <div>
       <div
-        className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+        className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
         style={{ backgroundColor: cardColor }}
       >
         <img className="" src={image} alt="" />
